@@ -3,16 +3,20 @@ import NavBar from './components/navBar.jsx';
 import Hero from './components/Hero.jsx';
 import Body1 from './components/Body1.jsx';
 import TestimonialStack from './components/Testimonials.jsx';
+import Body2 from './components/Body2.jsx';
 
 const App = () => {
   return (
     <>
     <NavBar/>
-    <div className="pt-[50px] px-[300px] md:px-50 lg:px-50 text-[#0F0D35]">
+    <div className="pt-[50px] px-[190px] md:px-[80px] lg:px-[50px] text-[#0F0D35]">
     <Hero/>
     </div>
     <Body1/>
+    <Body2/>
     <TestimonialStack/>
+    
+    
     </>
   );
 }
