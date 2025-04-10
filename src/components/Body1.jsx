@@ -19,7 +19,7 @@ const Body1 = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mt-[0px]">
       <img
         src={isMobile ? "./images/why-mobile.svg" : "./images/Why-desktop.svg"}
         alt="Why Vida"

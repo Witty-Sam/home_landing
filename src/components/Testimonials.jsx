@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import Empower from "./Empower"; 
+import Boost from "./Boost";
+import BNPL from "./BNPL";
 
 const testimonials = [
   { image: "./images/ConsumerMFB.svg" },
@@ -20,10 +23,10 @@ export default function TestimonialStack() {
 
   return (
     <div className="bg-[#FFFDEB] py-[50px] px-6 md:px-16 lg:px-32 text-center text-[#0F0D35]">
-  <h4 className="text-xs font-medium tracking-widest mb-2 uppercase">Testimonials</h4>
-  <h2 className="text-2xl md:text-3xl font-bold mb-10">
+  <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">Testimonials</h2>
+  <h1 className="text-[28px] md:text-3xl font-bold mb-10">
     What others have to <br/> say about us
-  </h2>
+  </h1>
 
   {/* Testimonial Card Stack */}
   <div className="relative h-[300px] w-full max-w-[150px] mx-auto mt-16">
@@ -50,10 +53,15 @@ export default function TestimonialStack() {
   </div>
 
   <div>
-  <h4 className="text-xs font-medium tracking-widest mb-2 uppercase">About Vida</h4>
-  <h2 className="text-2xl md:text-3xl font-bold mb-10">
+  <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">About Vida</h2>
+  <h1 className="text-[28px] md:text-3xl font-bold mb-10">
     Vida is the Assistant Your Team <br/>Needs to Improve Their <br/> Performance
-  </h2>
+  </h1>
+<>
+  <Empower/>
+  <Boost/>
+  <BNPL/>
+  </>
   </div>
 </div>
 
