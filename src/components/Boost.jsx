@@ -2,7 +2,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function Boost() {
   return (
-    <section className="bg-[#FFFFFF] flex justify-center py-[12px] w-[auto] h-[600px] mt-[-200px]">
+    <section className="bg-[#FFFFFF] flex justify-center py-[12px] w-[1300px] h-[450px] ">
       <div className=" rounded-[400px] shadow-md p-8 w-[60%] ">
         <table className="w-full table-fixed">
           <tbody>
@@ -10,9 +10,9 @@ export default function Boost() {
 
               {/* Text + Button Section */}
               <td className="w-1/2 pr-6">
-              <h1 className="text-[34px] ">Boost Credit Risk Officers'<br/> Productivity with Vida Co-Pilot</h1>
+              <h1 className="text-[28px] ">Boost Credit Risk Officers'<br/> Productivity with Vida Co-Pilot</h1>
 
-              <text className="text-[18px] mt-[2px] text-[#6A6A6A] ">Vida Co-Pilot acts as a digital assistant for your <br/>credit risk officers, offering intelligent suggestions based <br/>on comprehensive credit data and predictive<br/> analytics. It streamlines decision-making, minimizes <br/>errors, and enhances operational efficiency, allowing<br/> your team to focus on strategic risk management.</text>
+              <text className="text-[16px] mt-[2px] text-[#6A6A6A] ">Vida Co-Pilot acts as a digital assistant for your <br/>credit risk officers, offering intelligent suggestions based <br/>on comprehensive credit data and predictive<br/> analytics. It streamlines decision-making, minimizes <br/>errors, and enhances operational efficiency, allowing<br/> your team to focus on strategic risk management.</text>
                 {/* <img
                   src="./images/BoostProdwords.svg"
                   alt="Boost Credit Risk Officers Productivity"
@@ -29,7 +29,7 @@ export default function Boost() {
                   <img
                     src="./images/BoostProductivity.svg"
                     alt="Boost Prod"
-                    className="w-[400px] h-[380px] object-cover rounded-[5px]"
+                    className="w-[300px] h-[320px] object-cover rounded-[5px]"
                   />
                 </div>
               </td>
