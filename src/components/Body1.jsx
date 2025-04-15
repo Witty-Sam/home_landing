@@ -1,33 +1,13 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
 const Body1 = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 768); // Tailwind's md breakpoint
-    };
-
-    // Initial check
-    checkScreenSize();
-
-    // Re-check on resize
-    window.addEventListener("resize", checkScreenSize);
-
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, []);
-
   return (
-    <div className="mt-[0px]">
-      <img
-        src={isMobile ? "./images/why-mobile.svg" : "./images/Why-desktop.svg"}
-        alt="Why Vida"
-        className="w-full"
-      />
+    <div className="flex flex-col items-center text-center min-h-auto bg-[] bg-center"
+    style={{ backgroundImage: "url('./images/WhyBG.svg')"}}>
+      <h2 className="text-center text-[#FFFFFF] uppercase">Why vida</h2>
+      
     </div>
   );
-};
+}
 
-
-export default Body1
+export default Body1;

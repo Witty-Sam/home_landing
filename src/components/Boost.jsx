@@ -2,14 +2,14 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function Boost() {
   return (
-    <section className="bg-[#FFFFFF] flex justify-center py-[12px] w-[1300px] h-[450px] ">
-      <div className=" rounded-[400px] shadow-md p-8 w-[60%] ">
-        <table className="w-full table-fixed">
-          <tbody>
+    <section className="bg-[#FFFFFF] flex justify-center py-[12px] w-auto h-[500px] rounded-[40px] mt-[-20px]">
+      <div className="  shadow-md p-8 w-auto ">
+        <table className="w-auto table-fixed px-[50px]">
+          <tbody className="mr-[50px]">
             <tr className="align-top text-left">
 
               {/* Text + Button Section */}
-              <td className="w-1/2 pr-6">
+              <td className="w-1/2 pr-[0px]">
               <h1 className="text-[28px] ">Boost Credit Risk Officers'<br/> Productivity with Vida Co-Pilot</h1>
 
               <text className="text-[16px] mt-[2px] text-[#6A6A6A] ">Vida Co-Pilot acts as a digital assistant for your <br/>credit risk officers, offering intelligent suggestions based <br/>on comprehensive credit data and predictive<br/> analytics. It streamlines decision-making, minimizes <br/>errors, and enhances operational efficiency, allowing<br/> your team to focus on strategic risk management.</text>
@@ -24,7 +24,7 @@ export default function Boost() {
               </td>
 
               {/* Image Section */}
-              <td className="w-1/2 pl-6 text-right">
+              <td className="w-1/2 pl-[65px] text-right">
               <div className="rounded-[20px] overflow-hidden  pt-[40px]">
                   <img
                     src="./images/BoostProductivity.svg"
