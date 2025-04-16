@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="bg-[#0F0D35] mt-[-32px] z-0 relative">
-    <div className="flex flex-row gap-[500px]  w-auto h-auto px-[60px]" >
-       <div className="flex flex-col gap-[20px] py-[40px] mb-[50px] justify-left">
+    <div className="bg-[#0F0D35] mt-[-32px] z-0 relative object-contain">
+    <div className="flex flex-row gap-[300px]  w-auto h-auto px-[60px] object-contain" >
+       <div className="flex flex-col gap-[20px] py-[40px] mb-[50px] justify-left object-contain">
         <img
         src="./images/VidaWhite.svg"
         alt="Vida Logo"
@@ -29,7 +29,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-row gap-[30px] py-[40px] text-right justify-right w-auto">
+        <div className="flex flex-row gap-[30px] py-[40px] text-right justify-right w-auto object-contain">
 
         <div className="flex flex-col text-left">
 
@@ -50,7 +50,7 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-col gap-[4px]">
+        <div className="flex flex-col gap-[4px] text-left">
             <h2 className="text-[#FFFFFF] text-[18px] uppercase">Resources</h2>
 
             <div className="flex flex-col text-left">
@@ -61,9 +61,9 @@ const Footer = () => {
 
         </div>
 
-        <div className="flex flex-col text-left">
+        <div className="flex flex-col text-left text-left">
             <h2 className="text-[#FFFFFF] text-[18px] uppercase">Legal</h2>
-            <div className="text-right">
+            <div className="text-left">
             <text className="text-[#D4D4D4] text-[13px]">End user agreement</text>
             </div>
         </div>
@@ -83,14 +83,14 @@ const Footer = () => {
         </div>
     </div>
     {/*Bottom footer image*/}
-    <div className="justify-center items-center flex flex-col py-[10px] mt-[80px] ">
-        
-      <img
-      src="./images/VidaBlue.svg"
-      alt="Vida Logo"
-      style={{ maxHeight: "1000px", maxWidth: "1000px" }}
-      />
-      </div>
+    <div className="w-full flex justify-center items-center flex-col py-[10px] mt-[80px] overflow-hidden">
+  <img
+    src="./images/VidaBlue.svg"
+    alt="Vida Logo"
+    className="max-w-full h-auto object-contain"
+  />
+</div>
+
 
     </div>
   );

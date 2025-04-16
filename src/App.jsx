@@ -18,7 +18,7 @@ const App = () => {
     <Body1/>
     <Body2/>
     <TestimonialStack/>
-    {/* <Features/> */}
+    <Features/>
     <Integration/>
     <Footer/>
     </div>
