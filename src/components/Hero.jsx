@@ -16,7 +16,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center text-center min-h-auto bg-cover bg-center mt-[70px]"
+    <div className="flex flex-col items-center text-center min-h-auto bg-cover bg-center mt-[70px] mb-[-6px]"
     style={{ backgroundImage: "url('./images/Background.svg')"}}
     >
       <div className="flex flex-row ">
