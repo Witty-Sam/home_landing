@@ -9,7 +9,7 @@ const Body1 = () => {
       Why Vida - Boost your sales and<br/> minimize risk with Vida
   </h1>
 
-      <div className="flex flex-col md:flex-col gap-[60px] mt-[30px]">
+      <div className="flex flex-col md:flex-row gap-[60px] mt-[30px]">
 
         <div className="flex flex-col text-left gap-[7px]">
           <img
