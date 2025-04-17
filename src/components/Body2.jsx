@@ -7,7 +7,7 @@ const Body2 = () => {
       <table className="w-full table-fixed">
           <tbody>
     <div className="pt-[0px] px-[100px] justify-center">
-      <div className="bg-[#FFFFFF] py-[50px] px-6 md:px-16 lg:px-32 text-center text-[#0F0D35] ">
+      <div className="bg-[#FFFFFF] py-[50px] px-[6px] md:px-[16px] lg:px-32 text-center text-[#0F0D35] ">
   <h2 className="text-[13px] font-thin tracking-widest  uppercase">Use cases</h2>
   <h1 className="text-[22px] md:text-3xl font-bold mb-10">
   Unlock Endless <br/>Possibilities with Vida

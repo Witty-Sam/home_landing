@@ -29,28 +29,29 @@ export default function TestimonialStack() {
   </h1>
 
   {/* Testimonial Card Stack */}
-  <div className="relative h-[300px] w-full max-w-[150px] mx-auto mt-16">
-    {testimonials.map((t, i) => {
-      const offset = (i - index + testimonials.length) % testimonials.length;
-      return (
-        <div
-          key={i}
-          className="absolute w-full h-full flex items-center justify-center bg-[#FFFFF0] rounded-xl shadow-md transition-all duration-700 ease-in-out"
-          style={{
-            transform: `translateY(${offset * 8}px) scale(${1 - offset * 0.05})`,
-            opacity: offset === 0 ? 1 : 0.05,
-            zIndex: testimonials.length - offset,
-          }}
-        >
-          <img
-            src={t.image}
-            alt="testimonial logo"
-            className="w-[80vh] h-auto object-contain"
-          />
-        </div>
-      );
-    })}
-  </div>
+<div className="relative h-[300px] w-[200px] mx-auto mt-16">
+  {testimonials.map((t, i) => {
+    const offset = (i - index + testimonials.length) % testimonials.length;
+    return (
+      <div
+        key={i}
+        className="absolute w-full h-full flex items-center justify-center bg-[#FFFFF0] rounded-xl shadow-md transition-all duration-700 ease-in-out"
+        style={{
+          transform: `translateY(${offset * 8}px) scale(${1 - offset * 0.05})`,
+          opacity: offset === 0 ? 1 : 0.05,
+          zIndex: testimonials.length - offset,
+        }}
+      >
+        <img
+          src={t.image}
+          alt="testimonial logo"
+          className="w-[600px] h-[600px] object-contain"
+        />
+      </div>
+    );
+  })}
+</div>
+
 
   <div>
   <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">About Vida</h2>

@@ -1,19 +1,20 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
-import { ImageSlider } from './ImageScroller';
 
 const Features = () => {
   return (
-    <div>
-    <div className="flex flex-col gap-[5px] text-center">
+<div className="flex items-center justify-center min-h-screen">
+  
+    <div className="text-center">
+    <div className="flex flex-col gap-[5px] justify-center">
       <>
       <h2 className="text-[15px] justify-center font-thin mb-[4px] uppercase">Features</h2>
       </>
-  <h1 className="text-[28px] md:text-3xl font-bold mb-10">
+  <h1 className="text-[28px] md:text-3xl font-bold">
   Powerful Features to Supercharge Your <br/>Lending and BNPL Operations
   </h1>
   
-  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[6px] p-[20px]">
+  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 px-[80px] w-[980px] lg:grid-cols-4 gap-[6px] p-[70px]">
       
       <div className="p-[30px] border border-[#C2C1D2] text-left" > 
         <img
@@ -199,27 +200,33 @@ const Features = () => {
 
     <div className="flex flex-col items-center justify-center">
 
-    <div className="flex flex-row justify-center gap-[75px] mt-[-20px]">
+    <div className="flex flex-row justify-center gap-[110px] mt-[-20px] mt-[-75px]">
       <img
       src="./images/Arrow1.svg"
       alt="Arrow"
+      style={{ maxHeight: "110px", maxWidth: "110px"}}
       />
       <img
       src="./images/Arrow2.svg"
       alt="Arrow"
+      style={{ maxHeight: "110px", maxWidth: "110px"}}
       />
     </div>
-        <button className="px-[25px] py-[10px] text-[13px] flex items-center justify-center text-[10px] text-[#FFFFFF] font-sm border-none rounded-full shadow-none bg-[#4E0CC9] hover:shadow-md mb-[10px] transition ease-in-out transform hover:scale-105">
+        <button className="px-[50px] py-[15px] text-[13px] flex items-center justify-center text-[10px] text-[#FFFFFF] font-sm border-none rounded-full shadow-none bg-[#4E0CC9] hover:shadow-md mb-[10px] transition ease-in-out transform hover:scale-105">
                 Get Started<ArrowUpRight size={15} />
-        </button>      
+        </button>  
+
+            
     </div>
 
-      <ImageSlider/>
+    
 
   </div>  
 
 
 
+
+</div>
 
 </div>
 
