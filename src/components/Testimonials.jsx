@@ -23,8 +23,8 @@ export default function TestimonialStack() {
 
   return (
     <div className="bg-[#FFFDEB] py-[50px] px-6 md:px-16 lg:px-32 text-center text-[#0F0D35]">
-  <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">Testimonials</h2>
-  <h1 className="text-[28px] md:text-3xl font-bold mb-10">
+  <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase font-[400]">Testimonials</h2>
+  <h1 className="text-[28px] md:text-3xl font-bold mb-10 leading-[1.2]">
     What others have to <br/> say about us
   </h1>
 
@@ -54,8 +54,8 @@ export default function TestimonialStack() {
 
 
   <div>
-  <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">About Vida</h2>
-  <h1 className="text-[28px] md:text-3xl font-bold mb-10">
+  <h2 className="text-[15px] font-medium tracking-widest mb-2 font-[400] uppercase">About Vida</h2>
+  <h1 className="text-[28px] md:text-3xl font-bold mb-10 leading-[1.2]">
     Vida is the Assistant Your Team <br/>Needs to Improve Their <br/> Performance
   </h1>
 <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">

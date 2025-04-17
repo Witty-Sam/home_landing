@@ -6,11 +6,11 @@ const Features = () => {
 <div className="flex items-center justify-center min-h-screen">
   
     <div className="text-center">
-    <div className="flex flex-col gap-[5px] justify-center">
+    <div className="flex flex-col gap-[5px] py-[50px] justify-center">
       <>
-      <h2 className="text-[15px] justify-center font-thin mb-[4px] uppercase">Features</h2>
+      <h2 className="text-[15px] justify-center font-[400] mb-[2px] uppercase">Features</h2>
       </>
-  <h1 className="text-[28px] md:text-3xl font-bold">
+  <h1 className="text-[28px] font-bold leading-[1.2]">
   Powerful Features to Supercharge Your <br/>Lending and BNPL Operations
   </h1>
   

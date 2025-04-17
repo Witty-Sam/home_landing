@@ -5,7 +5,7 @@ const Integration = () => {
 
 <div className="bg-white rounded-b-[40px] overflow-hidden relative z-10">
     <section className="flex flex-col items-center justify-center text-center mt-[0px] mb-[0px] rounded-b-[40px] mb-[-1000px] bg-[#F9F9F9] p-[50px] shadow-lg relative z-15">
-        <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase">API Integration</h2>
+        <h2 className="text-[15px] font-medium tracking-widest mb-2 uppercase font-[400]">API Integration</h2>
   <h1 className="text-[28px] md:text-3xl font-bold mb-10">
     Powerful APIs for<br/> Seamless Integration
   </h1>
