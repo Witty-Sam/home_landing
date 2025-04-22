@@ -14,9 +14,9 @@ const Features = () => {
   Powerful Features to Supercharge Your <br/>Lending and BNPL Operations
   </h1>
   
-  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 px-[80px] w-[980px] lg:grid-cols-4 gap-[6px] p-[70px]">
+  <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 px-[80px] w-[800px] lg:grid-cols-4 gap-[0px] p-[40px]">
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left" > 
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left" > 
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/load.svg"
@@ -28,7 +28,7 @@ const Features = () => {
 
       </div>                                         {/*1*/} 
 
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/purpleShield.svg"
@@ -40,7 +40,7 @@ const Features = () => {
 
       </div>                                          {/*2*/}
 
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/openWallet.svg"
@@ -52,7 +52,7 @@ const Features = () => {
 
       </div>                                            {/*3*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/institute.svg"
@@ -64,7 +64,7 @@ const Features = () => {
 
       </div>                                        {/*4*/}                           
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/link.svg"
@@ -76,7 +76,7 @@ const Features = () => {
 
       </div>                                                  {/*5*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/file.svg"
@@ -88,7 +88,7 @@ const Features = () => {
 
       </div>                                                    {/*6*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/cards.svg"
@@ -100,7 +100,7 @@ const Features = () => {
 
       </div>                                                    {/*7*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/fileDownload.svg"
@@ -112,7 +112,7 @@ const Features = () => {
 
       </div>                                                  {/*8*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/star.svg"
@@ -124,7 +124,7 @@ const Features = () => {
 
       </div>                                                {/*9*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/checkList.svg"
@@ -136,7 +136,7 @@ const Features = () => {
 
       </div>                                                    {/*10*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/diodes.svg"
@@ -148,7 +148,7 @@ const Features = () => {
 
       </div>                                                {/*11*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/IDE.svg"
@@ -160,7 +160,7 @@ const Features = () => {
 
       </div>                                                      {/*12*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/toolBox.svg"
@@ -172,7 +172,7 @@ const Features = () => {
 
       </div>                                                    {/*13*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/EQ.svg"
@@ -184,7 +184,7 @@ const Features = () => {
 
       </div>                                                      {/*14*/}
       
-      <div className="p-[30px] border border-[#C2C1D2] text-left">
+      <div className="p-[15px] border-t border-b border-[#C2C1D2] text-left">
         <img
         style={{ maxWidth: "30px", maxHeight: "30px"}}
         src="./images/group.svg"
@@ -200,7 +200,7 @@ const Features = () => {
 
     <div className="flex flex-col items-center justify-center">
 
-    <div className="flex flex-row justify-center gap-[110px] mt-[-20px] mt-[-75px]">
+    <div className="flex flex-row justify-center gap-[45px] mt-[-40px]">
       <img
       src="./images/Arrow1.svg"
       alt="Arrow"
@@ -216,6 +216,8 @@ const Features = () => {
                 Get Started<ArrowUpRight size={15} />
         </button>  
 
+
+        
             
     </div>
 

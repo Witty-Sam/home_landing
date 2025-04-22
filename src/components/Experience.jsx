@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section className="flex flex-col text-center justify-center items-center mb-[60px]">
   <div
-    className="bg-[#4E0CC9] py-[50px] text-center rounded-[20px] mt-[90px] w-full max-w-6xl px-[20px]"
+    className="bg-[#4E0CC9] py-[50px] text-center rounded-[20px] mt-[90px] w-[920px] max-w-6xl px-[20px]"
     style={{ backgroundImage: "url('./images/purpleBG.svg')" }}
   >
     <h1 className="text-[#FFFFFF] text-[24px] font-bold mb-4 leading-snug">
@@ -48,7 +48,7 @@ const Experience = () => {
     </div>
 
     <div className="flex justify-center">
-      <button className="px-[25px] py-[10px] text-[13px] flex items-center justify-center text-[#FFFFFF] font-sm border-none rounded-full shadow-none bg-[#D6B4FC] hover:shadow-md transition ease-in-out transform hover:scale-105">
+      <button className="px-[25px] py-[10px] text-[13px] flex items-center justify-center text-[rgba(194, 193, 210, 1)] bg-[rgba(255, 255, 255, 0.8)] font-sm border-none rounded-full opacity-[50%] shadow-none hover:shadow-md transition ease-in-out transform hover:scale-105 ">
         Get Started today
       </button>
     </div>

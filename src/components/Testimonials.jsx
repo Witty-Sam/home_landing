@@ -58,7 +58,7 @@ export default function TestimonialStack() {
   <h1 className="text-[28px] md:text-3xl font-bold mb-10 leading-[1.2]">
     Vida is the Assistant Your Team <br/>Needs to Improve Their <br/> Performance
   </h1>
-<div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
+<div className="flex flex-col overflow-y-auto md:flex-row justify-center items-center gap-4 mt-10">
   <Empower/>
   <Boost/>
   <BNPL/>

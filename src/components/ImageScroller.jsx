@@ -1,31 +1,32 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
-import { Autoplay } from 'swiper/modules';
+import Marquee from "react-fast-marquee";
 
- const ImageSlider = () => (
-  <Swiper
-    modules={[Autoplay]}
-    slidesPerView="auto"
-    breakpoints={{
-        640: {slidesPerview: "auto"},
-        768: {slidesPerView: "auto"},
-        1024: {slidesPerView: "auto"},
-    }}
-    loop={true}
-    autoplay={{ delay: 1    , disableOnInteraction: false }}
-    speed={4000}
-    spaceBetween={5}
-    grabCursor={false}
-  >
-    <SwiperSlide><strong className="text-[20px] text-left text-[600] leading-[1.2]">We are<br/> backed by</strong   ></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/techStars.svg" alt="Techstars" /></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/resilience.svg" alt="Resilience 7" /></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/voltron.svg" alt="Voltron" /></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/magicFund.svg" alt="Magic Fund" /></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/firstCircle.svg" alt="First Circle" /></SwiperSlide>
-    <SwiperSlide style={{ width: '20px' }}><img src="./images/oak.svg" alt="The Oak Capital" /></SwiperSlide>
-  </Swiper>
-);
+function ImageScroller() {
+  return (
 
-export default ImageSlider;
+<div className="flex flex-row relative w-full overflow-hidden gap-[20px] h-[100px] bg-gray-100 items-center px-[170px]">
+  <b className="text-[18px] font-normal whitespace-nowrap ml-[1220px]">
+    We are <br /> backed by
+  </b>
+  
+  <Marquee speed={50} pauseOnHover={true} gradient={false}>
+    {[
+      "techStars.svg",
+      "resilience.svg",
+      "voltron.svg",
+      "magicFund.svg",
+      "firstCircle.svg",
+      "oak.svg",
+      "sunflower.svg",
+    ].map((img, idx) => (
+      <div key={idx} className="mx-[30px] inline-block">
+        <img src={`./images/${img}`} alt={img.split(".")[0]} />
+      </div>
+    ))}
+  </Marquee>
+</div>
+
+
+  );
+}
+
+export default ImageScroller;

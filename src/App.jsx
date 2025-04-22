@@ -15,8 +15,8 @@ const App = () => {
   return (
     <>
     <NavBar/>
-    <div className="min-h-screen w-full flex justify-center items-center">
-    <div className="pt-[50px] mb-[-5px] px-[70px] md:px-[60px] lg:px-[50px] ">
+    <div className="min-h-screen w-full flex justify-center object-contain items-center">
+    <div className="pt-[50px] w-[] mb-[-5px]  md:px-[60px] lg:px-[50px] ">
     <Hero/>
     
     <Body1/>

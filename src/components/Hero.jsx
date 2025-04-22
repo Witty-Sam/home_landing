@@ -25,7 +25,7 @@ const Hero = () => {
       style={{ maxHeight: "30px", maxWidth: "30px", }}
       />
 
-      <text className="text-center text-[14px] text-[#A0A0AA] mt-[3px]">#1 AI-powered credit decisioning solution for Africa</text>
+      <p className="text-center text-[14px] text-[#A0A0AA] mt-[3px]">#1 AI-powered credit decisioning solution for Africa</p>
 
       <img 
       src= "./images/Right.svg"
