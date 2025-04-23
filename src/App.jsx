@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
     <NavBar/>
-    <div className="min-h-screen w-full flex justify-center object-contain items-center">
+    <div className="font-ClashGrotesk min-h-screen w-full flex justify-center object-contain items-center">
     <div className="pt-[50px] w-[] mb-[-5px]  md:px-[60px] lg:px-[50px] ">
     <Hero/>
     

@@ -24,7 +24,7 @@ const Integration = () => {
                 />
               </td>
 
-              <td className="text-left justify-right max-h-[500px] gap-[20px] overflow-y-auto rounded-b-[12px]">
+              <td className="text-left justify-right max-h-[500px] gap-[20px] overflow-y-auto hide-scrollbar rounded-b-[12px]">
                 <h2 className="text-[22px]">Integrate with Ease</h2>
                 <p className="text-[18px] text-[#565568]">
                   Vida’s robust API suite is designed for seamless <br />

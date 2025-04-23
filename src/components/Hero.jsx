@@ -19,7 +19,7 @@ const Hero = () => {
     <div className="flex flex-col items-center text-center min-h-auto bg-cover bg-center mt-[70px] mb-[-6px]"
     style={{ backgroundImage: "url('./images/Background.svg')"}}
     >
-      <div className="flex flex-row ">
+      <div className="flex flex-row mb-[10px]">
       <img 
       src= "./images/Left.svg"
       style={{ maxHeight: "30px", maxWidth: "30px", }}
