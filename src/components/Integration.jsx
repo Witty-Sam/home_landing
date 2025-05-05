@@ -3,9 +3,9 @@ import React from 'react';
 const Integration = () => {
   return (
 
-<div className="bg-white rounded-b-[40px] overflow-hidden w-auto relative z-10">
-  <div className="p-[50px]"> {/* padding makes the curve visible */}
-    <section className="flex flex-col items-center justify-center text-center bg-[#F9F9F9] p-[55px] shadow-lg relative z-15 max-w-auto">
+<div className="bg-white rounded-b-[40px] overflow-hidden w-full relative z-10">
+  <div > 
+    <section className="flex flex-col rounded-b-[40px] items-center justify-center text-center bg-[#F9F9F9] p-[55px] shadow-lg relative z-15 max-w-auto">
       <h2 className="text-[15px] font-medium mb-2 uppercase font-[400]">API Integration</h2>
       <h1 className="text-[28px] md:text-3xl font-bold mb-10">
         Powerful APIs for<br /> Seamless Integration
@@ -24,7 +24,7 @@ const Integration = () => {
                 />
               </td>
 
-              <td className="text-left justify-right max-h-[500px] gap-[20px] overflow-y-auto hide-scrollbar rounded-b-[12px]">
+              <td className="text-left justify-right max-h-[500px] gap-[20px] overflow-y-auto hide-scrollbar ">
                 <h2 className="text-[22px]">Integrate with Ease</h2>
                 <p className="text-[18px] text-[#565568]">
                   Vida’s robust API suite is designed for seamless <br />

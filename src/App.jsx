@@ -13,10 +13,10 @@ import ImageSlider from './components/ImageScroller.jsx';
 
 const App = () => {
   return (
-    <>
+    <div style={{ overflow: 'hidden', margin: 0, padding: 0 }}>
     <NavBar/>
-    <div className="font-ClashGrotesk min-h-screen w-full flex justify-center object-contain items-center">
-    <div className="pt-[50px] w-[] mb-[-5px]  md:px-[60px] lg:px-[50px] ">
+    <div className="font-ClashGrotesk min-h-screen w-screen flex justify-center object-contain items-center">
+    <div className="">
     <Hero/>
     
     <Body1/>
@@ -29,7 +29,7 @@ const App = () => {
     <Footer/>
     </div>
     </div>
-    </>
+    </div>
   );
 }
 
